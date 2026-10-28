@@ -23,8 +23,11 @@ Prueba para convertir imagenes o videos de un modo oscuro a un modo claro usando
 ```bash
 ffmpeg -i input.mp4 -vf "negate, hue=h=180, eq=contrast=1.2:saturation=1.1" output.mp4
 ```
+```html
+<img alt="Texto alternativo" src="url_de_la_imagen.png" width="200" align="rigth">
+```
 
-
+<img alt="HeisenGato" src="https://octodex.github.com/images/heisencat.png" width=150, align="right">
 
 
 
