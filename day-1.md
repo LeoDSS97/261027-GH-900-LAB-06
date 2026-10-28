@@ -17,6 +17,19 @@
 | Comida | Casa | 12:30 | 13:30 |
 
 
+## Pruebas de codigo
+
+Prueba para convertir imagenes o videos de un modo oscuro a un modo claro usando esta herramienta [ffmpeg](https://www.ffmpeg.org).
+```bash
+ffmpeg -i input.mp4 -vf "negate, hue=h=180, eq=contrast=1.2:saturation=1.1" output.mp4
+```
+
+
+
+
+
+
+
 
 
 ## Revisión del día
